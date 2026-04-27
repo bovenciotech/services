@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bovencio Technologies</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/logo.jpg" type="image/x-icon">
+
+  <!-- Fonte moderna -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Ícones -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="assets/style.css?v=11">
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+  <img src="assets/img/logo.jpg" alt="Bovencio Technologies Logo" class="logo">
+  <h1>Bovencio Technologies</h1>
+  <p>Infraestrutura e suporte de TI de alto desempenho</p>
+
+</header>
+
+<!-- Plans Section -->
+<section class="container">
+
+  <!-- PLANO BÁSICO -->
+  <div class="card">
+    <h2>PLANO BÁSICO</h2>
+    <p class="price">R$ 197<span>/mês</span></p>
+    <p class="plan-note">Ideal para entrada e pequenas empresas.</p>
+
+    <ul>
+      <li><i data-lucide="headset"></i> Suporte remoto (horário comercial)</li>
+      <li><i data-lucide="wrench"></i> Correções básicas (lentidão, erros, impressoras)</li>
+      <li><i data-lucide="download"></i> Instalação de programas</li>
+      <li><i data-lucide="calendar"></i> 1 visita mensal (agendada)</li>
+      <li><i data-lucide="book-open"></i> Orientação técnica básica</li>
+      <li><i data-lucide="cpu"></i> Até 2 dispositivos</li>
+      <li><i data-lucide="activity"></i> Monitoramento básico de saúde dos dispositivos</li>
+      <li><i data-lucide="file-text"></i> Relatórios mensais de uso e manutenção</li>
+      <li><i data-lucide="help-circle"></i> Acesso a base de conhecimento online</li>
+    </ul>
+
+    <button onclick="contato('PLANO BÁSICO')" class="cta">Começar agora</button>
+  </div>
+
+  <!-- PADRÃO (DESTAQUE) -->
+  <div class="card destaque">
+    <div class="badge">MAIS POPULAR</div>
+    <h2>PADRÃO</h2>
+    <p class="price">R$ 347<span>/mês</span></p>
+    <p class="plan-note">Inclui todo o Plano Básico e adiciona:</p>
+
+    <ul>
+      <li><i data-lucide="zap"></i> Prioridade média no atendimento</li>
+      <li><i data-lucide="activity"></i> Monitoramento contínuo</li>
+      <li><i data-lucide="shield"></i> Manutenção preventiva</li>
+      <li><i data-lucide="calendar"></i> 2 visita mensal (agendada)</li>
+      <li><i data-lucide="cpu"></i> Até 5 dispositivos</li>
+      <li><i data-lucide="refresh-cw"></i> Atualizações de software</li>
+      <li><i data-lucide="clock"></i> Suporte 24/7</li>
+      <li><i data-lucide="bar-chart"></i> Relatórios de performance mensais</li>
+      <li><i data-lucide="hard-drive"></i> Formatação e reinstalação de sistemas</li>
+      <li><i data-lucide="wrench"></i> Troca de peças básicas (componentes essenciais sob demanda)</li>    </ul>
+
+    <button onclick="contato('Padrão')" class="cta">Começar agora</button>
+  </div>
+
+  <!-- PREMIUM -->
+  <div class="card">
+    <div class="badge">RECOMENDADO</div>
+    <h2>PREMIUM</h2>
+    <p class="price">R$ 597<span>/mês</span></p>
+    <p class="plan-note">Inclui todo o Plano Padrão e adiciona:</p>
+
+    <ul>
+      <li><i data-lucide="rocket"></i> Atendimento rápido</li>
+         <li><i data-lucide="calendar"></i> Visitas sob demanda</li>
+      <li><i data-lucide="database"></i> Backup</li>
+      <li><i data-lucide="cpu"></i> Até 10 dispositivos</li>
+      <li><i data-lucide="network"></i> Gestão completa de rede</li>
+      <li><i data-lucide="lock"></i> Segurança avançada (firewall, antivírus)</li>
+      <li><i data-lucide="users"></i> Treinamento para equipe</li>
+      <li><i data-lucide="cloud"></i> Backup em nuvem</li>
+      <li><i data-lucide="cog"></i> Troca de peças avançada</li>
+    </ul>
+
+    <button onclick="contato('Premium')" class="cta">Começar agora</button>
+  </div>
+
+  <!-- PLANO BUSINESS -->
+  <div class="card">
+    <h2>PLANO BUSINESS</h2>
+    <p class="price">R$ 897<span>/mês</span></p>
+    <p class="plan-note">Inclui todo o Plano Premium e adiciona: </p>
+
+    <ul>
+      <li><i data-lucide="crown"></i> Suporte prioritário total</li>
+      <li><i data-lucide="settings"></i> Gestão completa de TI</li>
+      <li><i data-lucide="trending-up"></i> Planejamento de melhorias</li>
+      <li><i data-lucide="lock"></i> Segurança básica (antivírus + boas práticas)</li>
+      <li><i data-lucide="users"></i> Consultoria contínua</li>
+      <li><i data-lucide="bar-chart"></i> Acompanhamento estratégico</li>
+      <li><i data-lucide="cpu"></i> Até 15 dispositivos</li>
+      <li><i data-lucide="zap"></i> SLA: Atendimento quase imediato</li>
+      <li><i data-lucide="pie-chart"></i> Análise de dados e relatórios avançados</li>
+      <li><i data-lucide="link"></i> Integração com sistemas existentes</li>
+      <li><i data-lucide="zap"></i> Troca de peças prioritária</li>
+    </ul>
+
+    <button onclick="contato('PLANO BUSINESS')" class="cta">Começar agora</button>
+  </div>
+
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits">
+  <h2>Por que escolher Bovencio Technologies?</h2>
+  <div class="benefits-grid">
+    <div class="benefit">
+      <i data-lucide="users"></i>
+      <h3>Equipe Especializada</h3>
+      <p>Profissionais certificados e experientes em TI.</p>
+    </div>
+    <div class="benefit">
+      <i data-lucide="clock"></i>
+      <h3>Atendimento Rápido</h3>
+      <p>Respostas em até 24h e suporte prioritário.</p>
+    </div>
+    <div class="benefit">
+      <i data-lucide="shield"></i>
+      <h3>Segurança Garantida</h3>
+      <p>Proteção completa contra ameaças digitais.</p>
+    </div>
+    <div class="benefit">
+      <i data-lucide="trending-up"></i>
+      <h3>Otimização Contínua</h3>
+      <p>Melhorias constantes para máxima eficiência.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="faq">
+  <h2>Perguntas Frequentes</h2>
+  <div class="faq-grid">
+    <div class="faq-item">
+      <h3>O que inclui o suporte remoto?</h3>
+      <p>Diagnóstico e resolução de problemas via acesso remoto, sem necessidade de visita presencial.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Como funciona o SLA?</h3>
+      <p>Garantimos resposta dentro do prazo estipulado em cada plano, com prioridade para emergências.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Posso cancelar a qualquer momento?</h3>
+      <p>Sim, sem multas, com aviso prévio de 30 dias.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Quais dispositivos são suportados?</h3>
+      <p>Computadores, notebooks, servidores e dispositivos móveis, com foco em Windows, Linux e Mac.</p>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about">
+  <h2>Sobre a Bovencio Technologies</h2>
+  <p>Somos especialistas em infraestrutura e suporte de TI, oferecendo soluções personalizadas para empresas de todos os portes. Com anos de experiência, garantimos a continuidade e segurança dos seus negócios.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Bovencio Technologies <br> Todos os direitos reservados.</p>
+</footer>
+
+
+
+<script src="assets/script.js"></script>
+<script>lucide.createIcons();</script>
+
+</body>
+</html>

@@ -113,6 +113,23 @@ header p {
   line-height: 1.5;
 }
 
+/* CARD H2 */
+.card h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 10px;
+}
+
+.card h2 i {
+  color: #38bdf8;
+  width: 24px;
+  height: 24px;
+}
+
 /* LIST */
 ul {
   list-style: none;
@@ -296,4 +313,69 @@ footer {
   header {
     padding: 60px 20px;
   }
+}
+
+/* MODAL */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background: rgba(15, 23, 42, 0.95);
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 90%;
+  max-width: 600px;
+  border-radius: 15px;
+  color: #e2e8f0;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: white;
+}
+
+#modal-body h3 {
+  color: #38bdf8;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#modal-body p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* DETALHES BUTTON */
+.detalhes {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: rgba(56,189,248,0.1);
+  color: #38bdf8;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid rgba(56,189,248,0.3);
+}
+
+.detalhes:hover {
+  background: rgba(56,189,248,0.2);
 }
